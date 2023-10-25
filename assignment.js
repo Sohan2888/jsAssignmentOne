@@ -109,9 +109,13 @@ Otherwise the switch statement checks the value of a variable with many differen
 let: let cann't be redecled. If we declear a variable in block scope using let we cann't use the variable in global scope.
 const: It cannot change and redeclear. we also cannot accesse from outside a block if we declear a vriable using const into a block.*/
 // 4. Explain the concept of "scope" in JavaScript and the difference between global and local scope.
+/* Scope: It is decided the usability of a variable in JavaScript.
+Global scope vs local scope: If a variable is declared into a curly bracket {} that is called local scope and if variable dose not declare into a curly bracket that is called global scope.*/
 
 // 5. What is the difference between "null" and "undefined" in JavaScript?
-
+/*Null and undefined: If we declare a variable but cannot assign any data into that variable then the value of that variable called undefined.
+On the other hand null is an object in JS. Null is a spatial value that represent an empty or unknown value.  
+*/
 // => Assignment Deadline + Marks:
 // 1. Each question value is 5 marks.
 // 2. The deadline to submit your assignment is October 25, 2023, at 8:00 PM.
