@@ -68,9 +68,7 @@
 // }
 // console.log(isLeapYear(2028));
 // Problem 7: Create a function removeDuplicates that takes an array and returns a new array with duplicates removed.
-function removeDuplicates(array) {
-  let;
-}
+
 // Problem 8: Create a function convertToCelsius that takes a temperature in Fahrenheit and returns the equivalent temperature in Celsius.
 
 // function convertToCelsius(f) {
@@ -99,11 +97,17 @@ function removeDuplicates(array) {
 // => Answer any 4 questions.
 
 // 1. Explain the difference between 'if...else' and 'switch' statements for conditional logic.
+/*Different between if…else and Switch: if ... else statement mainly uses to compare weather a condition is true or false. If the condition is true it will process its statements. If the condition is not true it will check else statement and process the else statements. 
+Otherwise the switch statement checks the value of a variable with many different options. When the condition is match, the statement of that case will be executed.*/
 
 // 2. What is JavaScript, and what is its primary purpose in web development?
+/*What is JavaScript : JavaScript is a programming language that is mainly used for making Website. It can change and update the HTML and CSS.
+ Primary purpose of js is to make a website interactive with the user.*/
 
 // 3. Explain the difference between var, let, and const when declaring variables in JavaScript.
-
+/*var: var can be redecler. It work both global and block scope.
+let: let cann't be redecled. If we declear a variable in block scope using let we cann't use the variable in global scope.
+const: It cannot change and redeclear. we also cannot accesse from outside a block if we declear a vriable using const into a block.*/
 // 4. Explain the concept of "scope" in JavaScript and the difference between global and local scope.
 
 // 5. What is the difference between "null" and "undefined" in JavaScript?
